@@ -1,3 +1,0 @@
-{
-  "buildCommand": "yarn global add prisma > prisma_global_install.log && yarn prisma migrate deploy > prisma_migrate_deploy.log"
-}
