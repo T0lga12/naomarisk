@@ -83,6 +83,7 @@ model Project {
   riskRegisterDescription String?
   riskReportIntro         String?
   riskReportDocumentId    String?
+  test                    String?
 
   company   Company @relation(fields: [companyId], references: [id])
   companyId String
