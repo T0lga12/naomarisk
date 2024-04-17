@@ -26,6 +26,7 @@ CREATE TABLE "Contact" (
     "address" TEXT,
     "phone" TEXT,
     "website" TEXT,
+    "Test" TEXT,
 
     CONSTRAINT "Contact_pkey" PRIMARY KEY ("id")
 );
